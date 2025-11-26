@@ -1,25 +1,20 @@
-<h1>
-    <?php
-    echo "hello world";
-    ?>
-</h1>
-<h1>
-    <?php
-    echo "the world, " . "is good";
-    ?>
-</h1>
-<p>
-    <?php
+<html lang="en">
 
-    echo "echo and print are basicaly the same thing just stick with echo";
-    ?>
-</p>
-<h2>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+
+<body>
+
     <?php
-    echo "wee " . "roman";
+    $name = "48 laws of power";
     ?>
-</h2>
-<?php
-$name = "Imam";
-echo "$name " . "hello"
-?>
+
+    <h1>
+        you have read "<?php echo $name; ?>"
+    </h1>
+
+</body>
+
+</html>
