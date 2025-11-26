@@ -1,0 +1,5 @@
+/vendor/
+/storage/temp/*
+/storage/logs/*
+public/uploads/*
+config/app.ini

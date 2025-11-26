@@ -1,1 +1,15 @@
-# Laravel Training Repo\n\nThis repository contains my daily PHP and Laravel practice following the 2023 Laracasts beginner series.\n\n## Progress\n- [x] Project setup\n- [x] Basic PHP scripts\n- [ ] Functions\n- [ ] Arrays\n- [ ] Forms\n- [ ] MVC basics\n\nMore updates coming...
+# Iconic Secure Upload Demo
+
+Real backend demo:
+- MySQL (production-like) via PDO
+- ClamAV scanning (clamd or clamscan)
+- Logs in storage/logs/scans.log
+- Public UI: / (upload form)
+- API: POST /api/upload
+
+Setup:
+1. Install MySQL, PHP (pdo_mysql) and ClamAV.
+2. Edit config/app.ini with DB credentials or set a secure DB user.
+3. Run: php src/Database/migrations.php
+4. Run: php -S localhost:8080
+5. Open http://localhost:8080
